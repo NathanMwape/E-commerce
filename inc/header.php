@@ -43,7 +43,7 @@
 
 
 
-<!-- <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="#">Navbar</a>
@@ -131,7 +131,7 @@
       <small class="text-muted">Last updated 3 mins ago</small>
     </div>
   </div>
-</div> -->
+</div>
 
 
 			<div class="conteneur">       
