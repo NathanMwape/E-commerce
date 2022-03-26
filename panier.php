@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="bootstrap-5.0.2/dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="bootstrap-5.0.2/dist/css/bootstrap.css">
+<link rel="stylesheet" href="bootstrap-5.1.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap-5.1.3/dist/css/bootstrap.css">
 <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
 <?php
 require_once("inc/init.inc.php");
@@ -75,7 +75,7 @@ else
 		echo "<td>" . $_SESSION['panier']['prix'][$i] . "</td>";
 		echo "</tr>";
 	}
-	echo "<tr><th colspan='3'>Total</th><td colspan='2'>" . montantTotal() . " euros</td></tr>";
+	echo "<tr><th colspan='3'>Total</th><td colspan='2'>" . montantTotal() . " dollard</td></tr>";
 	if(internauteEstConnecte()) 
 	{
 		echo '<form method="post" action="">';

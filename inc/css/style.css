@@ -13,7 +13,8 @@ a{
 
 header { 
     background: #000000;
-    padding: 5px; 
+    padding: 10px; 
+    font-size: 17px;
     text-align: center; 
 }
 header  span{ 

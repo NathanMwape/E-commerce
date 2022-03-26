@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="bootstrap-5.0.2/dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="bootstrap-5.0.2/dist/css/bootstrap.css">
+<link rel="stylesheet" href="bootstrap-5.1.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap-5.1.3/dist/css/bootstrap.css">
 <?php
 require_once("inc/init.inc.php");
 //--------------------------------- TRAITEMENTS PHP ---------------------------------//
@@ -15,6 +15,7 @@ $contenu .= "<p>Taille: $produit[taille]</p>";
 $contenu .= "<img src='$produit[photo]' width='150' height='150' />";
 $contenu .= "<p><i>Description: $produit[description]</i></p><br />";
 $contenu .= "<p>Prix : $produit[prix] $</p><br />";
+
 
 if($produit['stock'] > 0)
 {

@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="../bootstrap-5.0.2/dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="../bootstrap-5.0.2/dist/css/bootstrap.css">
+<link rel="stylesheet" href="../bootstrap-5.1.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="../bootstrap-5.1.3/dist/css/bootstrap.css">
 <?php
 function executeRequete($req)
 {
