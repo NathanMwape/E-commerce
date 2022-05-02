@@ -45,7 +45,7 @@ function internauteEstConnecteEtEstAdmin()
 { 
 	if(internauteEstConnecte() && $_SESSION['membre']['statut'] == 1) 
 	{
-			return true;
+		return true;
 	}
 	return false;
 }

@@ -65,11 +65,11 @@ if($_POST)
 				<label for="ville">Ville</label>
 			</div>             
 			<div class="mb-3 form-floating">     
-				<input type="text" id="code_postal" class="form-control" name="code_postal" placeholder="code postal" pattern="[0-9]{5}" title="5 chiffres requis : 0-9">
+				<input type="text" id="code_postal" class="form-control" name="code_postal" placeholder="code postal"  title="5 chiffres requis : 0-9">
 				<label for="cp">Code Postal</label>
 			</div>
 			<div class="mb-3 form-floating">
-				<textarea id="adresse" class="form-control" name="adresse" placeholder="votre dresse" pattern="[a-zA-Z0-9-_.]{5,15}" title="caracteres acceptes :  a-zA-Z0-9-_."></textarea>
+				<textarea id="adresse" class="form-control" name="adresse" placeholder="votre dresse" title="caracteres acceptes :  a-zA-Z0-9-_."></textarea>
 				<label for="adresse">Adresse</label>
 			</div>
 		

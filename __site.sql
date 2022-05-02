@@ -125,11 +125,11 @@ CREATE TABLE IF NOT EXISTS `produit` (
 --
 
 INSERT INTO `produit` (`id_produit`, `reference`, `categorie`, `titre`, `description`, `couleur`, `taille`, `public`, `photo`, `prix`, `stock`) VALUES
-(1, '11-d-23', 'tshirt', 'Tshirt Col V', 'Tee-shirt en coton flammé liseré contrastant', 'bleu', 'M', 'm', '/dev/tutomooc/site/photo/11-d-23_bleu.jpg', 20, 53),
-(2, '66-f-15', 'tshirt', 'Tshirt Col V rouge', 'c''est vraiment un super tshirt en soir&eacute;e !', 'rouge', 'L', 'm', '/dev/tutomooc/site/photo/66-f-15_rouge.png', 15, 230),
-(3, '88-g-77', 'tshirt', 'Tshirt Col rond vert', 'Il vous faut ce tshirt Made In France !!!', 'vert', 'L', 'm', '/dev/tutomooc/site/photo/88-g-77_vert.png', 29, 63),
-(4, '55-b-38', 'tshirt', 'Tshirt jaune', 'le jaune reviens &agrave; la mode, non? :-)', 'jaune', 'S', 'm', '/dev/tutomooc/site/photo/55-b-38_jaune.png', 20, 3),
-(5, '31-p-33', 'tshirt', 'Tshirt noir original', 'voici un tshirt noir tr&egrave;s original :p', 'noir', 'XL', 'm', '/dev/tutomooc/site/photo/31-p-33_noir.jpg', 25, 80),
-(6, '56-a-65', 'chemise', 'Chemise Blanche', 'Les chemises c''est bien mieux que les tshirts', 'blanc', 'L', 'm', '/dev/tutomooc/site/photo/56-a-65_chemiseblanchem.jpg', 49, 73),
-(7, '63-s-63', 'chemise', 'Chemise Noir', 'Comme vous pouvez le voir c''est une chemise noir...', 'noir', 'M', 'm', '/dev/tutomooc/site/photo/63-s-63_chemisenoirm.jpg', 59, 120),
-(8, '77-p-79', 'pull', 'Pull gris', 'Pull gris pour l''hiver', 'gris', 'XL', 'f', '/dev/tutomooc/site/photo/77-p-79_pullgrism2.jpg', 79, 99);
+(1, '11-d-23', 'tshirt', 'Tshirt Col V', 'Tee-shirt en coton flammé liseré contrastant', 'bleu', 'M', 'm', '/SitePhp/photo/11-d-23_bleu.jpg', 20, 53),
+(2, '66-f-15', 'tshirt', 'Tshirt Col V rouge', 'c''est vraiment un super tshirt en soir&eacute;e !', 'rouge', 'L', 'm', '/SitePhp/photo/66-f-15_rouge.png', 15, 230),
+(3, '88-g-77', 'tshirt', 'Tshirt Col rond vert', 'Il vous faut ce tshirt Made In France !!!', 'vert', 'L', 'm', '/SitePhp/photo/88-g-77_vert.png', 29, 63),
+(4, '55-b-38', 'tshirt', 'Tshirt jaune', 'le jaune reviens &agrave; la mode, non? :-)', 'jaune', 'S', 'm', '/SitePhp/photo/55-b-38_jaune.png', 20, 3),
+(5, '31-p-33', 'tshirt', 'Tshirt noir original', 'voici un tshirt noir tr&egrave;s original :p', 'noir', 'XL', 'm', '/SitePhp/photo/31-p-33_noir.jpg', 25, 80),
+(6, '56-a-65', 'chemise', 'Chemise Blanche', 'Les chemises c''est bien mieux que les tshirts', 'blanc', 'L', 'm', '/SitePhp/photo/56-a-65_chemiseblanchem.jpg', 49, 73),
+(7, '63-s-63', 'chemise', 'Chemise Noir', 'Comme vous pouvez le voir c''est une chemise noir...', 'noir', 'M', 'm', '/SitePhp/photo/63-s-63_chemisenoirm.jpg', 59, 120),
+(8, '77-p-79', 'pull', 'Pull gris', 'Pull gris pour l''hiver', 'gris', 'XL', 'f', '/SitePhp/photo/77-p-79_pullgrism2.jpg', 79, 99);

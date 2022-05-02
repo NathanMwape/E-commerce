@@ -18,46 +18,46 @@
 					<?php
 					if(internauteEstConnecteEtEstAdmin()) // admin
 					{ 
-						echo '<a href="' . RACINE_SITE . 'admin/gestion_membre.php">Gestion des membres</a>';
-						echo '<a href="' . RACINE_SITE . 'admin/gestion_commande.php">Gestion des commandes</a>';
-						echo '<a href="' . RACINE_SITE . 'admin/gestion_boutique.php">Gestion de la boutique</a>';
+						echo '<a href="' . RACINE_SITE . 'admin/gestion_membre.php">Gestion des membres |</a>'.
+						'<a href="' . RACINE_SITE . 'admin/gestion_commande.php">Gestion des commandes |</a>'.
+						'<a href="' . RACINE_SITE . 'admin/gestion_boutique.php">Gestion de la boutique |</a>';
 					}
 					if(internauteEstConnecte()) // membre et admin
 					{
-						echo '<a href="' . RACINE_SITE . 'profil.php">Voir votre profil</a>';
-						echo '<a href="' . RACINE_SITE . 'boutique.php">Acces à la boutique</a>';
-						echo '<a href="' . RACINE_SITE . 'panier.php">Voir votre panier</a>';
-						echo '<a href="' . RACINE_SITE . 'connexion.php?action=deconnexion">Se déconnecter</a>';
+						echo '<a href="' . RACINE_SITE . 'profil.php">Voir votre profil |</a>'.
+						'<a href="' . RACINE_SITE . 'boutique.php">Acces à la boutique |</a>'.
+						'<a href="' . RACINE_SITE . 'panier.php">Voir votre panier |</a>'.
+						'<a href="' . RACINE_SITE . 'connexion.php?action=deconnexion">Se déconnecter |</a>';
 					}
 					else // visiteur
 					{
-						echo '<a href="' . RACINE_SITE . 'inscription.php">Inscription</a>';
-						echo '<a href="' . RACINE_SITE . 'connexion.php">Connexion</a>';
-						echo '<a href="' . RACINE_SITE . 'boutique.php">Accés à la boutique</a>';
-						echo '<a href="' . RACINE_SITE . 'panier.php">Voir votre panier</a>';
+						echo '<a href="' . RACINE_SITE . 'inscription.php">Inscription |</a>'.
+						'<a href="' . RACINE_SITE . 'connexion.php">Connexion |</a>'.
+						'<a href="' . RACINE_SITE . 'boutique.php">Accés à la boutique |</a>'.
+						'<a href="' . RACINE_SITE . 'panier.php">Voir votre panier |</a>';
 					}
 					// visiteur=4 liens - membre=4 liens - admin=7 liens
 					?>
 				</nav>
 			</div>
         </header>
-        <section>
+    <section>
 <!-- <nav class="navbar navbar-expand navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand" href="javascript:void(0)">E-achat</a>
+    <a class="navbar-brand" href="#">E-achat</a>
     <button class="navbar-toggler" type="button" >
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="mynavbar">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Link</a>
+          <a class="nav-link" href="#">Link</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="javascript:void(0)">Link</a>
+          <a class="nav-link " href="#">Link</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="javascript:void(0)">Link</a>
+          <a class="nav-link " href="#">Link</a>
         </li>
       </ul>
       <form class="d-flex">
@@ -68,7 +68,4 @@
   </div>
 </nav> -->
 
-
-
-
-			<div class="conteneur">       
+			<div class="conteneur">

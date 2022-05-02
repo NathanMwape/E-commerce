@@ -14,7 +14,7 @@ a{
 header { 
     background: #000000;
     padding: 10px; 
-    font-size: 17px;
+    font-size: 14px;
     text-align: center; 
 }
 header  span{ 
@@ -32,7 +32,7 @@ header  a{
     padding: 5px 5px; 
 }
 header  nav  a:hover{ 
-    background: #e9ff20; }
+    background: #57e6ff; }
 /**************************************************** MILIEU ************************************************/
 section{ 
     padding: 30px; 
